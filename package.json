@@ -8,6 +8,12 @@
   "license": "MIT",
   "commands": [
     {
+      "name": "update",
+      "title": "Update Command Metadata",
+      "description": "Testing how updating metadata is supported",
+      "mode": "no-view"
+    },
+    {
       "name": "dynamic-form",
       "title": "Dynamic Form",
       "description": "Seeing how dynamic forms work",
@@ -20,9 +26,20 @@
       "mode": "no-view"
     }
   ],
+  "preferences": [
+    {
+      "name": "key",
+      "description": "some preference",
+      "type": "textfield",
+      "required": true,
+      "title": "A preference",
+      "placeholder": "put something here"
+    }
+  ],
   "dependencies": {
     "@raycast/api": "^1.55.2",
-    "@raycast/utils": "^1.9.0"
+    "@raycast/utils": "^1.9.0",
+    "axios": "^1.4.0"
   },
   "devDependencies": {
     "@raycast/eslint-config": "1.0.5",
