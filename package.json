@@ -8,22 +8,22 @@
   "license": "MIT",
   "commands": [
     {
+      "name": "validate",
+      "title": "Validate Input",
+      "description": "Testing input validation",
+      "mode": "view"
+    },
+    {
       "name": "update",
       "title": "Update Command Metadata",
-      "description": "Testing how updating metadata is supported",
+      "description": "Testing updating command metadata",
       "mode": "no-view"
     },
     {
       "name": "dynamic-form",
       "title": "Dynamic Form",
-      "description": "Seeing how dynamic forms work",
+      "description": "Testing dynamic forms",
       "mode": "view"
-    },
-    {
-      "name": "open",
-      "title": "Open val.new",
-      "description": "Lorem ipsum dolor sit amet.",
-      "mode": "no-view"
     }
   ],
   "preferences": [
@@ -39,7 +39,8 @@
   "dependencies": {
     "@raycast/api": "^1.55.2",
     "@raycast/utils": "^1.9.0",
-    "axios": "^1.4.0"
+    "axios": "^1.4.0",
+    "zod": "^3.21.4"
   },
   "devDependencies": {
     "@raycast/eslint-config": "1.0.5",
