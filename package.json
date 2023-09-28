@@ -24,6 +24,12 @@
       "title": "Dynamic Form",
       "description": "Testing dynamic forms",
       "mode": "view"
+    },
+    {
+      "name": "dynamic-action",
+      "title": "Dynamic Action",
+      "description": "Testing dynamic forms",
+      "mode": "view"
     }
   ],
   "preferences": [
