@@ -8,6 +8,12 @@
   "license": "MIT",
   "commands": [
     {
+      "name": "ai",
+      "title": "Sandbox AI",
+      "description": "Testing useAI",
+      "mode": "view"
+    },
+    {
       "name": "validate",
       "title": "Validate Input",
       "description": "Testing input validation",
