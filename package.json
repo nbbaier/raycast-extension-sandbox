@@ -20,10 +20,28 @@
       "mode": "view"
     },
     {
+      "name": "karabinerList",
+      "title": "Karabiner",
+      "description": "List Karabiner Complex Mods",
+      "mode": "view"
+    },
+    {
+      "name": "localstorage",
+      "title": "Local Storage",
+      "description": "Play with localstorage",
+      "mode": "no-view"
+    },
+    {
       "name": "update",
       "title": "Update Command Metadata",
       "description": "Testing updating command metadata",
       "mode": "no-view"
+    },
+    {
+      "name": "dropdown",
+      "title": "List dropdown",
+      "description": "Testing dropdowns",
+      "mode": "view"
     },
     {
       "name": "dynamic-form",
