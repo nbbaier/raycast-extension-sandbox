@@ -26,6 +26,12 @@
       "mode": "view"
     },
     {
+      "name": "listStorage",
+      "title": "list stored items",
+      "description": "List stored items",
+      "mode": "view"
+    },
+    {
       "name": "localstorage",
       "title": "Local Storage",
       "description": "Play with localstorage",
@@ -67,7 +73,7 @@
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.55.2",
+    "@raycast/api": "^1.64.0",
     "@raycast/utils": "^1.9.0",
     "axios": "^1.4.0",
     "zod": "^3.21.4"

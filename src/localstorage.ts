@@ -1,15 +1,9 @@
-import { LocalStorage, showHUD } from "@raycast/api";
-
-interface Values {
-  todo: string;
-  priority: number;
-}
+import { LocalStorage } from "@raycast/api";
 
 export default async function Command() {
   await LocalStorage.setItem("favorite-fruit", "apple");
-  const items = await LocalStorage.allItems<Values>();
-  console.log(`Local storage item count: ${JSON.stringify(items)}`);
-  const todo = await LocalStorage.setItem("todo", "hello");
-  const item = await LocalStorage.getItem<string>("favorite-fruit");
-  await showHUD(item as string);
+  await LocalStorage.setItem("favorite-number", 1);
+  const items = await LocalStorage.allItems<Record<string, string | number | boolean>>();
+  const result = Object.entries(items).map(([key, value]) => ({ key, value }));
+  console.log(result);
 }
